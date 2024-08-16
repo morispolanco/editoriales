@@ -47,7 +47,7 @@ def get_publishers_info(campo_publicacion, pais):
     return ai_response, search_results
 
 # Interfaz de Streamlit
-st.title("Buscador de Editoriales")
+st.title("Buscador de editoriales que reciben manuscritos")
 
 campo_publicacion = st.text_input("Campo de publicación (Ej. Literatura, No Ficción)")
 pais = st.text_input("País")
